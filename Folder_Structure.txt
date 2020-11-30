@@ -1,0 +1,34 @@
+### Folder Structure - 
+
+1) public -- All public assest which are browse in browser, fonts,css file etc......
+    a) css -- For all css files
+        *) app.css
+    b) js -- main index file
+        *) app.js
+    c) img -- All images file
+
+2) app -- All backend logic will be store here...
+
+    a) http -- controllers, middlewares
+        *) controllers
+        *) middlewares
+    b) models -- For interaction with databases
+    c) config -- All the configuration file for auth and all that...
+
+3) resources -- All views,templates,sass files,js files(uncompiled)
+    a) js 
+        *) app.js
+    b) scss -- Sass files
+        *) app.scss
+    c) views -- HTML index page, order list etc, templates
+
+4) routes -- Routes of all urls
+    *) web.js
+    *) api.js
+
+5) server.js
+
+6) Dependencies ----- 
+    a) -----express
+    b) -----ejs express-ejs-layouts
+    c) -----nodemon(Dev Dependencies)
